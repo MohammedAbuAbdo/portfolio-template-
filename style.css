@@ -1,0 +1,266 @@
+body{
+   font-family: roboto sans-serif serif;
+}
+nav{
+   padding:10px 10px !important;
+   z-index:2;
+}
+p{
+   cursor: pointer;
+}
+.barnd_image{
+   width: 150px;
+}
+a{
+   text-decoration: none !important;
+}
+
+.nav-btn{
+   color:black;
+   text-transform: uppercase;
+}
+.ul-nav{
+   gap:10px;
+   
+}
+.x{
+   padding:0 50px;
+}
+.brand{
+   height:50px
+}
+.btn-nav{
+   color:black;
+   text-transform: uppercase;
+}
+.btn-nav:hover{
+   color:rgb(150, 59, 235)
+}
+.Hey{
+   font-size: 2rem;
+}
+
+.Hey::after{
+content:"____________";
+display: inline-block;
+color:black;
+font-size: 1.5rem;
+position: absolute;
+top:0px;
+}
+ .home-btn-hire-me,
+ .home-btn-get-cv{
+   transition: all 0.3s;
+ }
+ .home-btn-hire-me,
+ .home-btn-get-cv:hover{
+   background-color: rgb(150, 59, 235) !important;
+   color:white !important; 
+    border: 1px white solid !important;
+ }
+ .home-btn-get-cv,
+ .home-btn-hire-me:hover{
+   color:rgb(150, 59, 235) !important;
+   background-color: white !important;
+   border: 1px rgb(150, 59, 235) solid !important;
+ }
+.person-image{
+     max-width: 100%;
+   height: 150%;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.about-paragraph{
+   color:#777;
+}
+.download-cv,
+.Subscribe:hover {
+   font-size: 1.6rem;
+   font-weight:600;
+   background-color: rgb(150, 59, 235) !important;
+   color:white !important; 
+    border: 1px white solid !important;
+}
+.download-cv:hover,
+.Subscribe{
+    color:rgb(150, 59, 235) !important;
+   background-color: white !important;
+   border: 1px rgb(150, 59, 235) solid !important;
+}
+.light{
+   font-size:2rem;
+   color:lightgreen
+}
+.brand-inner-image{
+   border:1px solid rgba(0, 0, 0, 0.39);
+   height: 80px;
+    transition: all 0.4s;
+    padding: 0px;
+}
+.brand-inner-image img{
+   width: 100%;
+   height:100%;
+   object-fit: cover;
+   opacity: 0.5;
+   transition: all 0.4s;
+}
+.brand-inner-image:hover{
+   transform:scale(1.2);
+}
+.brand-inner-image:hover .brand-inner-image>img{
+   opacity: 1;
+}
+
+.brands-row-container{
+   gap:20px;
+}
+.ten-years{
+   font-size: 3.5rem;
+   font-weight: 600;
+   color:rgb(150, 59, 235);
+}
+.phone{
+   font-size:3.5rem
+}
+.brand-experience{
+   background-color: bisque;
+}
+.border-{
+   position: absolute;
+   width:40%;
+   height: 120px;
+   border: 1px dashed #777;
+   top:30px;
+   left:-60px;
+}
+.card-image{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height:200px;
+}
+.card-image img{
+   width:90px;
+   object-fit: cover;
+}
+.services{
+   margin-top: 100px;
+}
+.service-card{
+   height: 400px;
+   padding:40px 5px;
+   text-align:center;
+   background-color: #7777770e;
+   cursor:pointer
+}
+.service-card:hover{
+   transform: scale(1.1);
+   background-color: white;
+}
+.card-project{
+   height: auto !important;
+   cursor: pointer;
+}
+.card-project:hover{
+transform:scale(1.02) !important;
+}
+.transition-button{
+   background-color: transparent !important;
+   color: #777 !important;
+   transition: all 0.3s;
+}
+.transition-button:hover{
+   color:rgb(150, 59, 235) !important;
+   transform: scale(1.2) !important;
+}
+.transition-button.active{
+ color:rgb(150, 59, 235) !important;
+ 
+}
+@media (min-width: 1200px) {
+  .Home {
+    height: 100vh !important;
+  }
+}
+.about-image{
+   width:100%;
+}
+.client-image{
+   height:100px;
+}
+.carousel-indicators{
+   bottom:-60px
+}
+.carousel-indicators button{
+   background-color:black !important;
+  width: 2px;
+   border-radius: 50%;
+}
+.contact-card{
+   padding: 50px 0px ;
+   height: 100%;
+   width: 80%;
+   margin: 0 auto;
+   background-image: url("./asstes/images/background/subscribe-bg.png");
+   background-size: cover;
+}
+.form-control {
+   background-color: transparent ;
+}
+footer{
+    background-image: url("./asstes/images/background/footer-bg.png");  
+    background-size: cover;
+   }
+    .social-media{
+      gap:5px;
+      margin:0px auto !important ;
+    }
+   .social-media i{
+      
+      font-size: 2rem;
+      cursor: pointer;
+   }
+   .instagram:hover{
+      color:rgb(148, 29, 142)
+   }
+   .snapchat:hover{
+      color:yellow
+   }
+   .facebook:hover{
+      color:rgb(40, 59, 230)
+   }
+   .whatsapp:hover{
+      color:rgb(63, 218, 63)
+   }
+    .clients{
+      margin:250px 0px !important;
+   }
+   footer{
+      margin-top:200px
+   }
+    .Subscribe{
+      padding:5px 10px;
+   }
+   .form-control{
+      border-radius: 20px !important;
+   }
+@media(min-width:992px) {
+   .clients {
+      height:100vh;
+      gap:100px
+   }
+   .client-carousel-item{
+      height:100%;
+   }
+   .contact,
+   footer{
+      height:50vh;
+       margin-top:100px
+   }
+    .clients{
+      margin:100px 0px;
+   }
+   .Subscribe{
+      padding:10px 20px;
+   }
+}
